@@ -11,6 +11,12 @@
 		141C23A6268A9EEE00155BCD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141C23A5268A9EEE00155BCD /* ContentView.swift */; };
 		141C23A8268A9EF000155BCD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141C23A7268A9EF000155BCD /* Assets.xcassets */; };
 		141C23AB268A9EF000155BCD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141C23AA268A9EF000155BCD /* Preview Assets.xcassets */; };
+		14D0F93D268AA21C001C8DE8 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D0F93C268AA21C001C8DE8 /* HomeView.swift */; };
+		14D0F93F268AA22C001C8DE8 /* HimnosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D0F93E268AA22C001C8DE8 /* HimnosView.swift */; };
+		14D0F941268AA23D001C8DE8 /* AlabanzasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D0F940268AA23D001C8DE8 /* AlabanzasView.swift */; };
+		14D0F943268AA2B5001C8DE8 /* AjustesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D0F942268AA2B5001C8DE8 /* AjustesView.swift */; };
+		14D0F945268AA2CD001C8DE8 /* MenuTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D0F944268AA2CD001C8DE8 /* MenuTabBarView.swift */; };
+		14D0F948268AA77B001C8DE8 /* CardViewProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		141C23A7268A9EF000155BCD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		141C23AA268A9EF000155BCD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		141C23AC268A9EF000155BCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14D0F93C268AA21C001C8DE8 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14D0F93E268AA22C001C8DE8 /* HimnosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosView.swift; sourceTree = "<group>"; };
+		14D0F940268AA23D001C8DE8 /* AlabanzasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzasView.swift; sourceTree = "<group>"; };
+		14D0F942268AA2B5001C8DE8 /* AjustesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesView.swift; sourceTree = "<group>"; };
+		14D0F944268AA2CD001C8DE8 /* MenuTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBarView.swift; sourceTree = "<group>"; };
+		14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewProfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +64,7 @@
 		141C23A2268A9EEE00155BCD /* HimnarioPentecostal */ = {
 			isa = PBXGroup;
 			children = (
+				14D0F936268AA1A2001C8DE8 /* Views */,
 				141C23A3268A9EEE00155BCD /* HimnarioPentecostalApp.swift */,
 				141C23A5268A9EEE00155BCD /* ContentView.swift */,
 				141C23A7268A9EF000155BCD /* Assets.xcassets */,
@@ -67,6 +80,67 @@
 				141C23AA268A9EF000155BCD /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		14D0F936268AA1A2001C8DE8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F946268AA754001C8DE8 /* components */,
+				14D0F93B268AA1FB001C8DE8 /* menuBar */,
+				14D0F93A268AA1F5001C8DE8 /* ajustes */,
+				14D0F939268AA1E8001C8DE8 /* alabanzas */,
+				14D0F938268AA1DC001C8DE8 /* himnos */,
+				14D0F937268AA1C8001C8DE8 /* home */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		14D0F937268AA1C8001C8DE8 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F93C268AA21C001C8DE8 /* HomeView.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		14D0F938268AA1DC001C8DE8 /* himnos */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F93E268AA22C001C8DE8 /* HimnosView.swift */,
+			);
+			path = himnos;
+			sourceTree = "<group>";
+		};
+		14D0F939268AA1E8001C8DE8 /* alabanzas */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F940268AA23D001C8DE8 /* AlabanzasView.swift */,
+			);
+			path = alabanzas;
+			sourceTree = "<group>";
+		};
+		14D0F93A268AA1F5001C8DE8 /* ajustes */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F942268AA2B5001C8DE8 /* AjustesView.swift */,
+			);
+			path = ajustes;
+			sourceTree = "<group>";
+		};
+		14D0F93B268AA1FB001C8DE8 /* menuBar */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F944268AA2CD001C8DE8 /* MenuTabBarView.swift */,
+			);
+			path = menuBar;
+			sourceTree = "<group>";
+		};
+		14D0F946268AA754001C8DE8 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */,
+			);
+			path = components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +213,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				141C23A6268A9EEE00155BCD /* ContentView.swift in Sources */,
+				14D0F93D268AA21C001C8DE8 /* HomeView.swift in Sources */,
+				14D0F945268AA2CD001C8DE8 /* MenuTabBarView.swift in Sources */,
+				14D0F943268AA2B5001C8DE8 /* AjustesView.swift in Sources */,
+				14D0F941268AA23D001C8DE8 /* AlabanzasView.swift in Sources */,
+				14D0F93F268AA22C001C8DE8 /* HimnosView.swift in Sources */,
+				14D0F948268AA77B001C8DE8 /* CardViewProfile.swift in Sources */,
 				141C23A4268A9EEE00155BCD /* HimnarioPentecostalApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
