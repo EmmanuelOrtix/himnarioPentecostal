@@ -15,17 +15,17 @@ struct MenuTabBarView: View {
                     Text("Home")
                     Image(systemName: "house")
                 }
-            Text("Himnario")
+            HimnosView()
                 .tabItem {
                     Text("Himnario")
                     Image(systemName: "doc")
                 }
-            Text("Carpeta")
+            AlabanzasView()
                 .tabItem {
                     Text("Carpeta")
                     Image(systemName: "doc")
                 }
-            Text("Ajustes")
+            AjustesView()
                 .tabItem {
                     Text("Ajustes")
                     Image(systemName: "gear")

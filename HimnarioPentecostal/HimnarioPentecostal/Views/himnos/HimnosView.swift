@@ -9,7 +9,11 @@ import SwiftUI
 
 struct HimnosView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            ZStack {
+                HimnosListView()
+            }.navigationBarTitle("Himnos", displayMode: .inline)
+        }
     }
 }
 
