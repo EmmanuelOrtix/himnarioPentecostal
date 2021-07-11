@@ -9,7 +9,7 @@ import SwiftUI
 
 struct HimnosContentView: View {
     
-    let model: himnarioModel
+    let model: HimnosModels
     
     var body: some View {
         ScrollView{
