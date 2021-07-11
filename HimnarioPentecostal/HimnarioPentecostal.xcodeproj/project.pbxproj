@@ -20,6 +20,7 @@
 		37916690269A8399005694AA /* HimnosListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3791668F269A8399005694AA /* HimnosListView.swift */; };
 		37916692269A8623005694AA /* HimnosContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37916691269A8623005694AA /* HimnosContentView.swift */; };
 		37916696269A8769005694AA /* HimnosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37916695269A8769005694AA /* HimnosModels.swift */; };
+		37D9E25E269AB60E005D09B7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E25D269AB60E005D09B7 /* SearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		3791668F269A8399005694AA /* HimnosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosListView.swift; sourceTree = "<group>"; };
 		37916691269A8623005694AA /* HimnosContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosContentView.swift; sourceTree = "<group>"; };
 		37916695269A8769005694AA /* HimnosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosModels.swift; sourceTree = "<group>"; };
+		37D9E25D269AB60E005D09B7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 			isa = PBXGroup;
 			children = (
 				14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */,
+				37D9E25D269AB60E005D09B7 /* SearchBar.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				14D0F945268AA2CD001C8DE8 /* MenuTabBarView.swift in Sources */,
 				14D0F943268AA2B5001C8DE8 /* AjustesView.swift in Sources */,
 				14D0F941268AA23D001C8DE8 /* AlabanzasView.swift in Sources */,
+				37D9E25E269AB60E005D09B7 /* SearchBar.swift in Sources */,
 				14D0F93F268AA22C001C8DE8 /* HimnosView.swift in Sources */,
 				37916696269A8769005694AA /* HimnosModels.swift in Sources */,
 				14D0F948268AA77B001C8DE8 /* CardViewProfile.swift in Sources */,
