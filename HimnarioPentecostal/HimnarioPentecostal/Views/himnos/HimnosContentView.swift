@@ -21,6 +21,7 @@ struct HimnosContentView: View {
                 }
                 HStack{
                 Text(model.texto)
+                    .font(.system(size: 20))
                     .lineLimit(nil)
                     .multilineTextAlignment(.leading)
                 Spacer()
