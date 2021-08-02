@@ -11,13 +11,21 @@ struct HimnosListView: View {
     
     @Binding var items: [HimnosModels]
     
+    var  device = UIDevice.current.userInterfaceIdiom
+    
     var body: some View {
         
         VStack(spacing: 15) {
             List(items.sorted(by: { $0.numero < $1.numero })) { item in
                 NavigationLink(
                     destination: HimnosContentView(model: item)) {
-                    Text(String(item.numero) + ".- " + item.titulo)
+                    
+                    if device == .pad {
+                        Text(String(item.numero) + ".- " + item.titulo)
+                            .font(.system(size: 30))
+                    } else {
+                        Text(String(item.numero) + ".- " + item.titulo)
+                    }
                 }
             }
         }
