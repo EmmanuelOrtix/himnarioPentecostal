@@ -12,10 +12,11 @@ struct HimnosListView: View {
     @Binding var items: [HimnosModels]
     
     var body: some View {
+        
         VStack(spacing: 15) {
-            List(items) { item in
+            List(items.sorted(by: { $0.numero < $1.numero })) { item in
                 NavigationLink(
-                    destination: HimnosContentView(model: items)){
+                    destination: HimnosContentView(model: item)) {
                     Text(String(item.numero) + ".- " + item.titulo)
                 }
             }
