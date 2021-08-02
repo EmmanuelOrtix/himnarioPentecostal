@@ -10,22 +10,32 @@ import SwiftUI
 struct HimnosContentView: View {
     
     let model: HimnosModels
+    var  device = UIDevice.current.userInterfaceIdiom
     
     var body: some View {
         ScrollView{
             VStack {
                 HStack{
-                    Text(model.titulo).font(.title).fontWeight(.semibold).padding(.all)
+                    Text(model.titulo)
+                        .font(.system(size: device == .pad ? 40 : 25))
+                        .fontWeight(.semibold)
+                        .padding(.all)
                     Spacer()
                 }
                 HStack {
-                    Text("Tiempo: " + String(model.tiempo)).fontWeight(.semibold).padding(.all)
-                    Text("Nota: " + model.tono).fontWeight(.semibold).padding(.all)
+                    Text("Tiempo: " + String(model.tiempo))
+                        .font(.system(size: device == .pad ? 30 : 18))
+                        .fontWeight(.semibold)
+                        .padding(.all)
+                    Text("Nota: " + model.tono)
+                        .font(.system(size: device == .pad ? 30 : 18))
+                        .fontWeight(.semibold)
+                        .padding(.all)
                     Spacer()
                 }
                 HStack{
                 Text(model.texto)
-                    .font(.system(size: 20))
+                    .font(.system(size: device == .pad ? 35 : 20))
                     .lineLimit(nil)
                     .multilineTextAlignment(.leading)
                 Spacer()

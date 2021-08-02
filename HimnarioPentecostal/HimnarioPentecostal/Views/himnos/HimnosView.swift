@@ -32,9 +32,3 @@ struct HimnosView: View {
         
     }
 }
-
-struct HimnosPage_Previews: PreviewProvider {
-    static var previews: some View {
-        HimnosView()
-    }
-}

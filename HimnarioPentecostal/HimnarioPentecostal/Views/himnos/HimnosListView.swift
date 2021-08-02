@@ -19,13 +19,8 @@ struct HimnosListView: View {
             List(items.sorted(by: { $0.numero < $1.numero })) { item in
                 NavigationLink(
                     destination: HimnosContentView(model: item)) {
-                    
-                    if device == .pad {
-                        Text(String(item.numero) + ".- " + item.titulo)
-                            .font(.system(size: 30))
-                    } else {
-                        Text(String(item.numero) + ".- " + item.titulo)
-                    }
+                    Text(String(item.numero) + ".- " + item.titulo)
+                        .font(.system(size: device == .pad ? 30 : 20))
                 }
             }
         }
