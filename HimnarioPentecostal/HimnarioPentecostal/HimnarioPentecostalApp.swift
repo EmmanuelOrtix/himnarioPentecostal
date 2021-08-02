@@ -11,7 +11,7 @@ import SwiftUI
 struct HimnarioPentecostalApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MenuTabBarView()
         }
     }
 }
