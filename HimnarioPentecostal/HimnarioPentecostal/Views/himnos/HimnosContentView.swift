@@ -34,12 +34,13 @@ struct HimnosContentView: View {
                     Spacer()
                 }
                 HStack{
-                Text(model.texto)
-                    .font(.system(size: device == .pad ? 35 : 20))
-                    .lineLimit(nil)
-                    .multilineTextAlignment(.leading)
-                Spacer()
-                }.padding(.leading, 30)
+                    Spacer()
+                    Text(model.texto)
+                        .font(.system(size: device == .pad ? 35 : 20))
+                        .lineLimit(nil)
+                        .multilineTextAlignment(device == .pad ? .center : .leading)
+                    Spacer()
+                }
             }
         }
     }
