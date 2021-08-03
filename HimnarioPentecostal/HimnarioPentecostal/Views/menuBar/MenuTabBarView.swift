@@ -10,11 +10,13 @@ import SwiftUI
 struct MenuTabBarView: View {
     var body: some View {
         TabView {
-            HomeView()
-                .tabItem {
-                    Text("Home")
-                    Image(systemName: "house")
-                }
+            if (false){ //eliminar if en otra feature
+                HomeView()
+                    .tabItem {
+                        Text("Home")
+                        Image(systemName: "house")
+                    }
+            }
             HimnosView()
                 .tabItem {
                     Text("Himnario")
@@ -25,17 +27,13 @@ struct MenuTabBarView: View {
                     Text("Carpeta")
                     Image(systemName: "doc")
                 }
-            AjustesView()
-                .tabItem {
-                    Text("Ajustes")
-                    Image(systemName: "gear")
-                }
+            if (false) { //eliminar if en otra feature
+                AjustesView()
+                    .tabItem {
+                        Text("Ajustes")
+                        Image(systemName: "gear")
+                    }
+            }
         }
-    }
-}
-
-struct MenuTabBarView_Previews: PreviewProvider {
-    static var previews: some View {
-        MenuTabBarView()
     }
 }
