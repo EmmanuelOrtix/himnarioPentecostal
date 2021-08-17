@@ -1,0 +1,6 @@
+framework module Pods_HimnarioPentecostal {
+  umbrella header "Pods-HimnarioPentecostal-umbrella.h"
+
+  export *
+  module * { export * }
+}

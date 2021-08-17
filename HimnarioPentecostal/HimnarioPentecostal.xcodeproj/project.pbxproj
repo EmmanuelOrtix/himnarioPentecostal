@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -22,6 +22,9 @@
 		37916696269A8769005694AA /* HimnosModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37916695269A8769005694AA /* HimnosModels.swift */; };
 		37A414D5269B82E800F862DC /* CustomNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A414D4269B82E800F862DC /* CustomNavigationView.swift */; };
 		37D9E25E269AB60E005D09B7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E25D269AB60E005D09B7 /* SearchBar.swift */; };
+		7A11B1D5053693D26B1AD571 /* Pods_HimnarioPentecostal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33A6F4B27559D2B058F8197 /* Pods_HimnarioPentecostal.framework */; };
+		B97851BB26CB4F5800E130DF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B97851BA26CB4F5800E130DF /* GoogleService-Info.plist */; };
+		B97851BD26CB522000E130DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97851BC26CB522000E130DF /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +40,16 @@
 		14D0F942268AA2B5001C8DE8 /* AjustesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AjustesView.swift; sourceTree = "<group>"; };
 		14D0F944268AA2CD001C8DE8 /* MenuTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTabBarView.swift; sourceTree = "<group>"; };
 		14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewProfile.swift; sourceTree = "<group>"; };
+		1999780586E47FC01A18A858 /* Pods-HimnarioPentecostal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimnarioPentecostal.debug.xcconfig"; path = "Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal.debug.xcconfig"; sourceTree = "<group>"; };
 		3791668F269A8399005694AA /* HimnosListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosListView.swift; sourceTree = "<group>"; };
 		37916691269A8623005694AA /* HimnosContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosContentView.swift; sourceTree = "<group>"; };
 		37916695269A8769005694AA /* HimnosModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosModels.swift; sourceTree = "<group>"; };
 		37A414D4269B82E800F862DC /* CustomNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationView.swift; sourceTree = "<group>"; };
 		37D9E25D269AB60E005D09B7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		6BA6E1FF179C0DFE1F7F234D /* Pods-HimnarioPentecostal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimnarioPentecostal.release.xcconfig"; path = "Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal.release.xcconfig"; sourceTree = "<group>"; };
+		B97851BA26CB4F5800E130DF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B97851BC26CB522000E130DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F33A6F4B27559D2B058F8197 /* Pods_HimnarioPentecostal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimnarioPentecostal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A11B1D5053693D26B1AD571 /* Pods_HimnarioPentecostal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +69,8 @@
 			children = (
 				141C23A2268A9EEE00155BCD /* HimnarioPentecostal */,
 				141C23A1268A9EEE00155BCD /* Products */,
+				F92E3CEA9190913B4F89D588 /* Pods */,
+				A0C26167405D580085C7619E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,8 +90,10 @@
 				141C23A3268A9EEE00155BCD /* HimnarioPentecostalApp.swift */,
 				141C23A5268A9EEE00155BCD /* ContentView.swift */,
 				141C23A7268A9EF000155BCD /* Assets.xcassets */,
+				B97851BA26CB4F5800E130DF /* GoogleService-Info.plist */,
 				141C23AC268A9EF000155BCD /* Info.plist */,
 				141C23A9268A9EF000155BCD /* Preview Content */,
+				B97851BC26CB522000E130DF /* AppDelegate.swift */,
 			);
 			path = HimnarioPentecostal;
 			sourceTree = "<group>";
@@ -174,6 +187,23 @@
 			path = himnos;
 			sourceTree = "<group>";
 		};
+		A0C26167405D580085C7619E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F33A6F4B27559D2B058F8197 /* Pods_HimnarioPentecostal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F92E3CEA9190913B4F89D588 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1999780586E47FC01A18A858 /* Pods-HimnarioPentecostal.debug.xcconfig */,
+				6BA6E1FF179C0DFE1F7F234D /* Pods-HimnarioPentecostal.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -181,9 +211,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 141C23AF268A9EF000155BCD /* Build configuration list for PBXNativeTarget "HimnarioPentecostal" */;
 			buildPhases = (
+				4D25416D032ACADC9CE30BD7 /* [CP] Check Pods Manifest.lock */,
 				141C239C268A9EEE00155BCD /* Sources */,
 				141C239D268A9EEE00155BCD /* Frameworks */,
 				141C239E268A9EEE00155BCD /* Resources */,
+				DAB1927B0875CD5410D1F757 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,10 +265,53 @@
 			files = (
 				141C23AB268A9EF000155BCD /* Preview Assets.xcassets in Resources */,
 				141C23A8268A9EF000155BCD /* Assets.xcassets in Resources */,
+				B97851BB26CB4F5800E130DF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D25416D032ACADC9CE30BD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HimnarioPentecostal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAB1927B0875CD5410D1F757 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		141C239C268A9EEE00155BCD /* Sources */ = {
@@ -247,6 +322,7 @@
 				14D0F93D268AA21C001C8DE8 /* HomeView.swift in Sources */,
 				14D0F945268AA2CD001C8DE8 /* MenuTabBarView.swift in Sources */,
 				14D0F943268AA2B5001C8DE8 /* AjustesView.swift in Sources */,
+				B97851BD26CB522000E130DF /* AppDelegate.swift in Sources */,
 				14D0F941268AA23D001C8DE8 /* AlabanzasView.swift in Sources */,
 				37D9E25E269AB60E005D09B7 /* SearchBar.swift in Sources */,
 				14D0F93F268AA22C001C8DE8 /* HimnosView.swift in Sources */,
@@ -380,6 +456,7 @@
 		};
 		141C23B0268A9EF000155BCD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1999780586E47FC01A18A858 /* Pods-HimnarioPentecostal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -404,6 +481,7 @@
 		};
 		141C23B1268A9EF000155BCD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BA6E1FF179C0DFE1F7F234D /* Pods-HimnarioPentecostal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
