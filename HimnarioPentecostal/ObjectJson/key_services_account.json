@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "himnariopentecostal-9e368",
+  "private_key_id": "7453a6f9082b95dc97f59f6b9bf9c13882d0c0f6",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCoFBcQX+b77/a\nA7SaxQoXj4Qsf6QEhdJN3G6aE+zNOGqAVYtqzR8GWh0yYD1B4BxDkqUSkv46PCOt\nYyCs4ANO4I5Ap02dfPT1obaxI/V0y7q22UMssCs81bCR8aKNXMrioUpSVn+gilmR\njl4YojP93Ruiugb8tYAIY0TsB5evmBD/JA1H32oPJN9IXRMW8bagIdufy0zNauBa\n7BWrlpNNx0JCRDPqRZbdaLPVLIEH+NpQer2fiIXqkEjFoPBP5WWo0HIBF1kphwma\nBpVs5pjWd8wtIl4mxhpK7pluNS+bHV8gYTaN71gB70tGrv0YUcS8mKfCAfFJSUPq\nZSh1G6pBAgMBAAECggEAHSHFRY828aQOUddyJiR44T6bKH9RPAK9OuhUKdNHrmQp\nFN05HsW7RMZ3o6hiIu/PwJGSYdhcyLdjGRCYaH1TdsVdUEd6nP3XkMN28XGSIRG0\nTgBGnMl11LJLrrIThG4E9FfzeaWhjunb2adiEEqJ1mWikwCeC8otyD5Lp7oZ4K9z\nL7oCRlqjY63RRd+Vlas/qi9aiQP06FMP55xLdrLflgK7dSmTHeyoTLxgVhAog5IJ\nOEgqp6i+lb0GCmKpmBbGbXtgzYNksp78sgh96k+TH4khtSXNByBYDCASTLc/wfrk\naKrG6Y3nGbBXUQcNFDgRMY4jwQ7ihLw9C0QSOt7B3QKBgQDiKHuWlgwrRXLyT0AN\naCs+WMmskVgBibYvCm5McXbXMyqRjHVrL3qho3JwrP8ofHvch/UQQydIGf+ioE+z\njLI+nS05euUkhij4P9U2pTroWQE1Th0pNPA7ZzSnhZ0+MqPbXjDj0c2ltL9qmEOV\nx5TRzpz0qfjcsnWJHFzS8cBm5wKBgQDcTrKkLi/cSCvySZluPuB/N8Fr9xkvH/i2\nSj/AkmIHx1ry+y4/TNGHR4gxeCRWDizGiXZi2/t5r3MoI+PHk86oc8trcRQprVpz\nEQn09Eq8zgsQhtf8P0NrjBllR2ol+Dc8fcIi7zmgotDyRz2wJO01WM5EDlHMAbm8\nBKidoyJIlwKBgQCJFbrcK3WS4RTs1abguYzEzPLp/GvY+s2ItAzpnzlG9ofOE9K0\ntuHhin562BIOS26U3YBpbBsqdD/lJsFI93avx3w7REgTHJNG7wJhjkQnxJOb6Q56\nBNG9YDClfrMymWWDOhPudCTwVaBVj5gf+Qs3JcMz9reXp0DhbGTDpLBYbwKBgFvE\ngE85WgBVI9Ep7TpqAJOdgvlZFWl21OAB76pkj2cUGINsM6h0dDb4ifepRuF9yBLv\nQZwObCMU/U/0GzaQEB5FFa/si2yM5EdYCqC5fcRFw4Af2yocpBXRZua0J7gnO8L7\n03k/0u5hw82X9U9BInn9QvZATLxA38A85Iu9X1ODAoGBAIKzNMK3sh3xZWU3tO/J\n2oXUo9gLydqWqLnoTKOMRAO5dwAVnA65BWdrD+I0ZxRSkIZCEmNCTZQNXacnMHov\nbz35tP3SrgvjMAkPtQM6/gm4BZskOKmfxh2eSVjQhf2N/V4rn3sWXOKCVwaRTyab\nICZjgcXeeiRdcicbgLvsGJ4o\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-87d47@himnariopentecostal-9e368.iam.gserviceaccount.com",
+  "client_id": "117003635421838525122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-87d47%40himnariopentecostal-9e368.iam.gserviceaccount.com"
+}
