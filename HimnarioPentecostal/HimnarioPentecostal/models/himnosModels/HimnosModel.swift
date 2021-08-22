@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct HimnosModels: Hashable{
+struct HimnosModel: Hashable{
     var id: String
     var categoria: String
     var numero: Int

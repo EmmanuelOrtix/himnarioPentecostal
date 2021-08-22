@@ -9,13 +9,13 @@ import SwiftUI
 
 struct HimnosListView: View {
     
-    @Binding var items: [HimnosModels]
+    @Binding var items: [HimnosModel]
     
     var  device = UIDevice.current.userInterfaceIdiom
     
     @State var searchItem = ""
     
-    var filtrado: [HimnosModels] {
+    var filtrado: [HimnosModel] {
         searchItem.isEmpty ? items : items.filter {
             $0.titulo.lowercased().contains(searchItem.lowercased()) || "\($0.numero)".contains(searchItem)
         }

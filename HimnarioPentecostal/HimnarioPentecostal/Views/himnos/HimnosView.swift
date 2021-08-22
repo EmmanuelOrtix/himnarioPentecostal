@@ -11,12 +11,15 @@ struct HimnosView: View {
     
     @StateObject var himnosViewModel = HimnosViewModel()
     
+    @State private var showModal = false
     
     var body: some View {
         ZStack {
-            NavigationView {
+            
+            NavigationView{
                 HimnosListView(items: $himnosViewModel.model)
-            }
+            }.navigationViewStyle(StackNavigationViewStyle())
+            
         }.onAppear {
             himnosViewModel.getHimnos()
         }

@@ -1,6 +1,6 @@
 //
-//  HimnosViewModel.swift
-//  HimnosViewModel
+//  AlabanzasViewModel.swift
+//  AlabanzasViewModel
 //
 //  Created by Emmanuel Ortiz Matus on 22-08-21.
 //
@@ -8,15 +8,15 @@
 import Foundation
 import Firebase
 
-class HimnosViewModel : ObservableObject {
+class AlabanzaViewModel : ObservableObject {
     
-    @Published var model = [HimnosModel]()
+    @Published var model = [AlabanzaModel]()
     
-    func getHimnos(){
-        let Himnos = "himnario"
+    func getAlabanzas(){
+        let alabanza = "alabanzasEspeciales"
         let db = Firestore.firestore()
         
-        db.collection(Himnos).addSnapshotListener { (query, error) in
+        db.collection(alabanza).addSnapshotListener { (query, error) in
             if let error = error?.localizedDescription {
                 print("error al mostrar los datos", error)
             } else {
@@ -33,7 +33,7 @@ class HimnosViewModel : ObservableObject {
                     let tono = data["tono"] as? String ?? ""
                     
                     DispatchQueue.main.async {
-                        let datos = HimnosModel(
+                        let datos = AlabanzaModel(
                             id:id,
                             categoria: categoria,
                             numero: numero,
