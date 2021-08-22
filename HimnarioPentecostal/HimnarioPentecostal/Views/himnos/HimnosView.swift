@@ -9,26 +9,16 @@ import SwiftUI
 
 struct HimnosView: View {
     
-    @State var filteredItems = listaHimnario
+    @StateObject var himnosViewModel = HimnosViewModel()
+    
     
     var body: some View {
         ZStack {
-            CustomNavigationView(view: HimnosListView(items: $filteredItems), onSearch: {
-                (txt) in
-                
-                if txt != "" {
-                    self.filteredItems = listaHimnario.filter{
-                        $0.titulo.uppercased().contains(txt.uppercased()) || String($0.numero).contains(txt)
-                    }
-                }else {
-                    self.filteredItems = listaHimnario
-                }
-                
-            }, onCancel: {
-                self.filteredItems = listaHimnario
-            })
-            .ignoresSafeArea()
+            NavigationView {
+                HimnosListView(items: $himnosViewModel.model)
+            }
+        }.onAppear {
+            himnosViewModel.getHimnos()
         }
-        
     }
 }
