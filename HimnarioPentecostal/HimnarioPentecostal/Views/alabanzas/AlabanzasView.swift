@@ -8,13 +8,16 @@
 import SwiftUI
 
 struct AlabanzasView: View {
+    
+    @StateObject var alabanzaViewModel = AlabanzaViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-struct AlabanzasPage_Previews: PreviewProvider {
-    static var previews: some View {
-        AlabanzasView()
+        ZStack {
+            NavigationView {
+                AlabanzasListView(items: $alabanzaViewModel.model)
+            }.navigationViewStyle(StackNavigationViewStyle())
+        }.onAppear {
+            alabanzaViewModel.getAlabanzas()
+        }
     }
 }

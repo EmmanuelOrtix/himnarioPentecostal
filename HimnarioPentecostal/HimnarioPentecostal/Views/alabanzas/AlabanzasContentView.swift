@@ -1,27 +1,19 @@
 //
-//  HimnosContentView.swift
-//  HimnarioPentecostal
+//  AlabanzasContentView.swift
+//  AlabanzasContentView
 //
-//  Created by Emmanuel Ortiz Matus on 10-07-21.
+//  Created by Emmanuel Ortiz Matus on 22-08-21.
 //
 
 import SwiftUI
 
-struct HimnosContentView: View {
-    
-    let model: HimnosModel
-    var  device = UIDevice.current.userInterfaceIdiom
+struct AlabanzasContentView: View {
+    let model: AlabanzaModel
+    var device = UIDevice.current.userInterfaceIdiom
     
     var body: some View {
         ScrollView{
             VStack {
-                HStack{
-                    Text(model.titulo)
-                        .font(.system(size: device == .pad ? 40 : 25))
-                        .fontWeight(.semibold)
-                        .padding(.all)
-                    Spacer()
-                }
                 HStack {
                     Text("Tiempo: " + String(model.tiempo))
                         .font(.system(size: device == .pad ? 30 : 18))
@@ -42,6 +34,6 @@ struct HimnosContentView: View {
                     Spacer()
                 }
             }
-        }
+        }.navigationTitle(model.titulo)
     }
 }
