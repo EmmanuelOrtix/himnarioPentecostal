@@ -24,12 +24,12 @@
 		37D9E25E269AB60E005D09B7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D9E25D269AB60E005D09B7 /* SearchBar.swift */; };
 		7A11B1D5053693D26B1AD571 /* Pods_HimnarioPentecostal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F33A6F4B27559D2B058F8197 /* Pods_HimnarioPentecostal.framework */; };
 		B926E95B26D225720085D966 /* HimnosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E95A26D225720085D966 /* HimnosViewModel.swift */; };
-		B926E95D26D22A7B0085D966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B926E95C26D22A7B0085D966 /* GoogleService-Info.plist */; };
 		B926E96026D22FF80085D966 /* AlabanzasViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E95F26D22FF80085D966 /* AlabanzasViewModel.swift */; };
 		B926E96326D2303D0085D966 /* AlabanzaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E96226D2303D0085D966 /* AlabanzaModel.swift */; };
 		B926E96526D2315A0085D966 /* AlabanzasListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E96426D2315A0085D966 /* AlabanzasListView.swift */; };
 		B926E96726D231920085D966 /* AlabanzasContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E96626D231920085D966 /* AlabanzasContentView.swift */; };
 		B97851BD26CB522000E130DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97851BC26CB522000E130DF /* AppDelegate.swift */; };
+		B9D3515D28A35D8200ED6726 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D3515C28A35D8200ED6726 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,12 +53,12 @@
 		37D9E25D269AB60E005D09B7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		6BA6E1FF179C0DFE1F7F234D /* Pods-HimnarioPentecostal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimnarioPentecostal.release.xcconfig"; path = "Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal.release.xcconfig"; sourceTree = "<group>"; };
 		B926E95A26D225720085D966 /* HimnosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimnosViewModel.swift; sourceTree = "<group>"; };
-		B926E95C26D22A7B0085D966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B926E95F26D22FF80085D966 /* AlabanzasViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzasViewModel.swift; sourceTree = "<group>"; };
 		B926E96226D2303D0085D966 /* AlabanzaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzaModel.swift; sourceTree = "<group>"; };
 		B926E96426D2315A0085D966 /* AlabanzasListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzasListView.swift; sourceTree = "<group>"; };
 		B926E96626D231920085D966 /* AlabanzasContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzasContentView.swift; sourceTree = "<group>"; };
 		B97851BC26CB522000E130DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9D3515C28A35D8200ED6726 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F33A6F4B27559D2B058F8197 /* Pods_HimnarioPentecostal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimnarioPentecostal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -102,9 +102,9 @@
 				141C23A5268A9EEE00155BCD /* ContentView.swift */,
 				141C23A7268A9EF000155BCD /* Assets.xcassets */,
 				141C23AC268A9EF000155BCD /* Info.plist */,
+				B9D3515C28A35D8200ED6726 /* GoogleService-Info.plist */,
 				141C23A9268A9EF000155BCD /* Preview Content */,
 				B97851BC26CB522000E130DF /* AppDelegate.swift */,
-				B926E95C26D22A7B0085D966 /* GoogleService-Info.plist */,
 			);
 			path = HimnarioPentecostal;
 			sourceTree = "<group>";
@@ -312,7 +312,7 @@
 			files = (
 				141C23AB268A9EF000155BCD /* Preview Assets.xcassets in Resources */,
 				141C23A8268A9EF000155BCD /* Assets.xcassets in Resources */,
-				B926E95D26D22A7B0085D966 /* GoogleService-Info.plist in Resources */,
+				B9D3515D28A35D8200ED6726 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
