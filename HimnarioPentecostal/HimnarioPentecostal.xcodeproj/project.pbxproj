@@ -29,7 +29,7 @@
 		B926E96526D2315A0085D966 /* AlabanzasListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E96426D2315A0085D966 /* AlabanzasListView.swift */; };
 		B926E96726D231920085D966 /* AlabanzasContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926E96626D231920085D966 /* AlabanzasContentView.swift */; };
 		B97851BD26CB522000E130DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97851BC26CB522000E130DF /* AppDelegate.swift */; };
-		B9D3515D28A35D8200ED6726 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9D3515C28A35D8200ED6726 /* GoogleService-Info.plist */; };
+		B999700128A5BB4900CA161B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B999700028A5BB4900CA161B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,7 +58,7 @@
 		B926E96426D2315A0085D966 /* AlabanzasListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzasListView.swift; sourceTree = "<group>"; };
 		B926E96626D231920085D966 /* AlabanzasContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlabanzasContentView.swift; sourceTree = "<group>"; };
 		B97851BC26CB522000E130DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B9D3515C28A35D8200ED6726 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B999700028A5BB4900CA161B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F33A6F4B27559D2B058F8197 /* Pods_HimnarioPentecostal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimnarioPentecostal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -101,8 +101,8 @@
 				141C23A3268A9EEE00155BCD /* HimnarioPentecostalApp.swift */,
 				141C23A5268A9EEE00155BCD /* ContentView.swift */,
 				141C23A7268A9EF000155BCD /* Assets.xcassets */,
+				B999700028A5BB4900CA161B /* GoogleService-Info.plist */,
 				141C23AC268A9EF000155BCD /* Info.plist */,
-				B9D3515C28A35D8200ED6726 /* GoogleService-Info.plist */,
 				141C23A9268A9EF000155BCD /* Preview Content */,
 				B97851BC26CB522000E130DF /* AppDelegate.swift */,
 			);
@@ -312,7 +312,7 @@
 			files = (
 				141C23AB268A9EF000155BCD /* Preview Assets.xcassets in Resources */,
 				141C23A8268A9EF000155BCD /* Assets.xcassets in Resources */,
-				B9D3515D28A35D8200ED6726 /* GoogleService-Info.plist in Resources */,
+				B999700128A5BB4900CA161B /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

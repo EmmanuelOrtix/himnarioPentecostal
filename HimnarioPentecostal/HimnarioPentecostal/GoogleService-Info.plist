@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>710449320740-f3e07ll624hanrk05oc6ukec9j0esonm.apps.googleusercontent.com</string>
+	<string>606197478509-7smm1uo537v2s8p2apjp9vl6t35abq2q.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.710449320740-f3e07ll624hanrk05oc6ukec9j0esonm</string>
+	<string>com.googleusercontent.apps.606197478509-7smm1uo537v2s8p2apjp9vl6t35abq2q</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAVixQuEM0Uhj_pVxpOTjMPGRZOohw_eO4</string>
+	<string>AIzaSyDwnz2JZIzR_Wz8UCAG_cTmQKT53bfXlqI</string>
 	<key>GCM_SENDER_ID</key>
-	<string>710449320740</string>
+	<string>606197478509</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.eortizma.IphoneIpadFirebase</string>
+	<string>com.eortizma.HimnarioPentecostal</string>
 	<key>PROJECT_ID</key>
-	<string>fir-crud-2436e</string>
+	<string>himnariopentecostal-9e368</string>
 	<key>STORAGE_BUCKET</key>
-	<string>fir-crud-2436e.appspot.com</string>
+	<string>himnariopentecostal-9e368.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:710449320740:ios:4f402af1717aaea1f499b1</string>
+	<string>1:606197478509:ios:da28e2edcef2aaabc3bb64</string>
 </dict>
 </plist>
