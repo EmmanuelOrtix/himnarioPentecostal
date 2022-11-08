@@ -69,7 +69,7 @@
     "tiempo": 3,
     "titulo": "DESPIERTA TRISTE PECADOR",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -96,7 +96,7 @@
     "tiempo": 3,
     "titulo": "VEN, ALMA QUE LLORAS",
     "tono": "MIm",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -231,7 +231,7 @@
     "tiempo": 0,
     "titulo": "VENID, PECADORES A CRISTO",
     "tono": "0",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -339,7 +339,7 @@
     "tiempo": 2,
     "titulo": "A JESUCRISTO VEN SIN TARDAR",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -474,7 +474,7 @@
     "tiempo": 2,
     "titulo": "PECADOR, VEN AL DULCE JESÚS",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -546,7 +546,7 @@
     "tiempo": 0,
     "titulo": "ALMA, CESE TU DOLOR",
     "tono": "0",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -762,7 +762,7 @@
     "tiempo": 4,
     "titulo": "ACOGIDA DA JESÚS",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -843,7 +843,7 @@
     "tiempo": 2,
     "titulo": "¿TE SIENTES CASI RESUELTO YA?",
     "tono": "MI",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -879,7 +879,7 @@
     "tiempo": 2,
     "titulo": "SALVO NAVEGO",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1068,7 +1068,7 @@
     "tiempo": 3,
     "titulo": "CON VOZ BENIGNA",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1185,7 +1185,7 @@
     "tiempo": 0,
     "titulo": "PECADORES EXTRAVIADOS",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1257,7 +1257,7 @@
     "tiempo": 2,
     "titulo": "SI AL FIERO ENEMIGO",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1365,7 +1365,7 @@
     "tiempo": 2,
     "titulo": "A CUALQUIERA PARTE",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1374,7 +1374,7 @@
     "tiempo": 2,
     "titulo": "CUANDO COMBATIDO",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1410,7 +1410,7 @@
     "tiempo": 2,
     "titulo": "CUAL NOCTURNO Y DULCE SON",
     "tono": "LA",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1437,7 +1437,7 @@
     "tiempo": 2,
     "titulo": "SOY EXTRANJERO AQUÍ",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1446,7 +1446,7 @@
     "tiempo": 2,
     "titulo": "CUANDO DIOS A LAS HUESTES DE ISRAEL",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1473,7 +1473,7 @@
     "tiempo": 2,
     "titulo": "TUS PIES LA SENDA",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1626,7 +1626,7 @@
     "tiempo": 3,
     "titulo": "NUEVAS ALEGRES",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1680,7 +1680,7 @@
     "tiempo": 3,
     "titulo": "PRESTE OÍDOS EL HUMANO",
     "tono": "MI",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1914,7 +1914,7 @@
     "tiempo": 2,
     "titulo": "MENSAJEROS DEL MAESTRO",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1950,7 +1950,7 @@
     "tiempo": 2,
     "titulo": "NUESTRA VIDA ACABARÁ",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -1959,7 +1959,7 @@
     "tiempo": 2,
     "titulo": "CÓMO PUEDES PECAR",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2058,7 +2058,7 @@
     "tiempo": 2,
     "titulo": "POR FE EN JESÚS EL SALVADOR",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2103,7 +2103,7 @@
     "tiempo": 2,
     "titulo": "PECADOR SIN ESPERANZA",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2148,7 +2148,7 @@
     "tiempo": 2,
     "titulo": "AL PECADOR, CRISTO LLAMA",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2166,7 +2166,7 @@
     "tiempo": 2,
     "titulo": "SEMBRARÉ LA SIMIENTE PRECIOSA",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2202,7 +2202,7 @@
     "tiempo": 2,
     "titulo": "A LUCHAR SIN TEMOR ",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2211,7 +2211,7 @@
     "tiempo": 2,
     "titulo": "QUIERES SER SALVO",
     "tono": "LA",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2256,7 +2256,7 @@
     "tiempo": 2,
     "titulo": "LAS SENDAS ANCHAS DEJARÉ",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2274,7 +2274,7 @@
     "tiempo": 2,
     "titulo": "EL SEÑOR JESÚS ESTÁ LLAMANDO",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2355,7 +2355,7 @@
     "tiempo": 2,
     "titulo": "A TÍ, ALMA",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2418,7 +2418,7 @@
     "tiempo": 2,
     "titulo": "DE LA TIERRA DE EGIPTO ",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2427,7 +2427,7 @@
     "tiempo": 2,
     "titulo": "DÍA DE VICTORIA",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2517,7 +2517,7 @@
     "tiempo": 4,
     "titulo": "LA PATRIA NECESITA",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2562,7 +2562,7 @@
     "tiempo": 2,
     "titulo": "SON VERDADES REVELADAS",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2634,7 +2634,7 @@
     "tiempo": 2,
     "titulo": "POR TI, OH CRISTO",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2670,7 +2670,7 @@
     "tiempo": 3,
     "titulo": "UN SALVADOR HALLÉ",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2688,7 +2688,7 @@
     "tiempo": 3,
     "titulo": "VEN, PECADOR",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2697,7 +2697,7 @@
     "tiempo": 2,
     "titulo": "VAGABA YO EN LA OBSCURIDAD",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2715,7 +2715,7 @@
     "tiempo": 2,
     "titulo": "UN PRÍNCIPE TENEMOS",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2805,7 +2805,7 @@
     "tiempo": 2,
     "titulo": "CRISTO, NUESTRO JEFE,",
     "tono": "LA",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2814,7 +2814,7 @@
     "tiempo": 3,
     "titulo": "ALLÁ EN LAS PLAYAS DE GALILEA",
     "tono": "MI",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2904,7 +2904,7 @@
     "tiempo": 2,
     "titulo": "VARIOS AÑOS HE LUCHADO",
     "tono": "DO",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -2931,7 +2931,7 @@
     "tiempo": 2,
     "titulo": "ALMA ESCUCHA A TU SEÑOR",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3111,7 +3111,7 @@
     "tiempo": 2,
     "titulo": "LA LLAMADA",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3246,7 +3246,7 @@
     "tiempo": 0,
     "titulo": "VENID A CRISTO",
     "tono": "0",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3309,7 +3309,7 @@
     "tiempo": 2,
     "titulo": "CORRAMOS TODOS ",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3435,7 +3435,7 @@
     "tiempo": 2,
     "titulo": "HAY UNA SENDA",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3462,7 +3462,7 @@
     "tiempo": 2,
     "titulo": "AUNQUE EN ESTA VIDA",
     "tono": "RE",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3534,7 +3534,7 @@
     "tiempo": 3,
     "titulo": "CUÁN TIERNAMENTE",
     "tono": "LA",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3588,7 +3588,7 @@
     "tiempo": 2,
     "titulo": "JESÚS ES EL CAUDILLO",
     "tono": "LA",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3597,7 +3597,7 @@
     "tiempo": 2,
     "titulo": "YO OÍ AL SALVADOR",
     "tono": "MI",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3633,7 +3633,7 @@
     "tiempo": 2,
     "titulo": "SEMBRADORES, ADELANTE",
     "tono": "LA",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3768,7 +3768,7 @@
     "tiempo": 2,
     "titulo": "EN TINIEBLAS DE MALDAD",
     "tono": "SOL",
-    "tipo": "Predicacion"
+    "tipo": ""
   },
   {
     "categoria": "himnario",
@@ -3776,6 +3776,628 @@
     "texto": "1. GUERREROS FIELES SOMOS, DE DIOS Y LA VERDAD\nLLEVAMOS POR EMBLEMA, VIRTUD Y SANTIDAD\nEL MUNDO PARA CRISTO ES NUESTRO NOBLE FIN\nSALGAMOS VALEROSOS, PUES YA SUENA EL CLARÍN.\n\nCORO\nSIN VACILAR MARCHAD, SOLDADOS DE JESÚS\nY POR LA CRUZ LUCHAD, ARMADOS DE VIRTUD\nSIN DESCANSAR CORRED, LAS ALMAS A SALVAR\nLOS PERDIDOS EN MALDAD, AL SALVADOR LLEVAR.}\n\n2. LAS ALMAS POR MILLONES, SIN DIOS NI SALVACIÓN\nSE LANZAN AL ABISMO, DE ETERNA PERDICIÓN\nAUNQUE ESTÁN SUMIDOS EN VICIOS Y EN MALDAD\nJESÚS MURIÓ POR RESCATAR Y DARLES LIBERTAD.\n\n3. LAS HUESTES ENEMIGAS, EN ORDEN YA ESTÁN\nSUS TROPAS INFERNALES, MANDADAS POR SATÁN\nVALOR PUES COMPAÑEROS,\nJESÚS CON NOSOTROS ESTÁ\nAQUÉL QUE NUNCA LID PERDIÓ VICTORIA NOS DARÁ.\n",
     "tiempo": 4,
     "titulo": "GUERREROS FIELES SOMOS",
-    "tono": "DO"
+    "tono": "DO",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 421,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "TENER, QUISIERA TENER",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 422,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "DIVINO COMPAÑERO DEL CAMINO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 423,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CREO EN TÍ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 424,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "PODER, MARAVILLOSO PODER",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 425,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "YO CAMINÉ POR LOS CAMINOS",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 426,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SALMO 121",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 427,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "NO TE DEJARÉ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 428,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SI CREUZAS ESTE VALLE TENEBROSO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 429,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SEÑOR TU NOMBRE ES INMORTAL",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 430,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ADORACIÓN",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 431,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ES ESPECIAL",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 432,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "EL GRAN DÍA DE JEHOVA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 433,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "DIOS ME GUARDA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 434,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SI VOLVERÁ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 435,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "EL PRIMER AMOR",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 436,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "A DIOS SEA LA GLORIA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 437,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "TENGO GANAS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 438,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ANOCHE TUVE UN SUEÑO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 439,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CON QUE PAGARÉ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 440,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "NO TEMAS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 441,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ALMA MIA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 442,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "LA QUINTA FILA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 443,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CON MIL ANGUSTIA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 444,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "A SOLAS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 445,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "YO QUISIERA HABLARTE",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 446,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "LAS BODAS DEL CORDERO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 447,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CUANDO MIRO LOS CIELOS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 448,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "MÁS ALLÁ DE LA AZUL INMENSIDAD",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 449,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SUPLICA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 450,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ES JESUCRISTO MI AMIGO MEJOR",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 451,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "EL QUE HABITA AL ABRIGO DE DIOS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 452,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "PIES QUE ANDUVIERON",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 453,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SIN TÍ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 454,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "DESCIENDE, DESCIENDE",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 455,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "MORA EN MI VIDA",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 456,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "HOY DÍA VI",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 457,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "QUE LINDO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 458,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "NO SÉ PORQUE",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 459,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CONSAGRADO A TI",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 460,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ALABA A DIOS",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 461,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "BAUTÍZAME",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 462,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "EN TÍ CONFIARÉ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 463,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "LA IGLESIA DEL SEÑOR",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 464,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CUANDO VENGA EL SEÑOR",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 465,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CUANDO CRISTO VENGA",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 466,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ME PREGUNTAS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 467,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SIEMPRE ACOMPAÑADO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 468,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "MÁS ALLÁ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 469,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CRISTO ES SIN IGUAL",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 470,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "YO ESTOY CONTENTO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 471,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ALELUYA AL CORDERO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 472,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "MUY POCO TIEMPO ESTUVO CRISTO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 473,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SANTIDAD RECLAMA CRISTO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 474,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CUANDO EL ALMA ESTÁ LLENA DE AMOR",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 475,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CRISTO ES LA PEÑA",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 476,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "QUE GLORIOSO ES ANDAR CON ÉL",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 477,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "HAY VIDA EN JESÚS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 478,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "ESTOY ALEGRE",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 479,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "PERDER LOS VIENES ES MUCHO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 480,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "DIOS DE TAL MANERA",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 481,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "CRISTO YA PAGÓ POR MÍ",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 482,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "TENME BRILLANDO",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 483,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "QUE VUELVA ATRÁS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 484,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "VIENE YA",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 485,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "SEÑOR, TE PEDIMOS CON FERVOR",
+    "tono": "",
+    "tipo": ""
+  },{
+    "categoria": "himnario",
+    "numero": 486,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "¡OH, CHILE UNA PATRIA REDIMIDA!",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 487,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "QUIERO LEVANTAR MIS MANOS",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 488,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "HABACUC CAP. 3 VERS. 17-18",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 489,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "RENUEVAME",
+    "tono": "",
+    "tipo": ""
+  },
+  {
+    "categoria": "himnario",
+    "numero": 490,
+    "texto": "",
+    "tiempo": 0,
+    "titulo": "HOY MÁS QUE NUNCA",
+    "tono": "",
+    "tipo": ""
   }
 ]
