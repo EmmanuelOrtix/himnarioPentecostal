@@ -10,13 +10,6 @@ import SwiftUI
 struct MenuTabBarView: View {
     var body: some View {
         TabView {
-            if (false){ //eliminar if en otra feature
-                HomeView()
-                    .tabItem {
-                        Text("Home")
-                        Image(systemName: "house")
-                    }
-            }
             HimnosView()
                 .tabItem {
                     Text("Himnario")
@@ -27,13 +20,6 @@ struct MenuTabBarView: View {
                     Text("Carpeta")
                     Image(systemName: "doc")
                 }
-            if (false) { //eliminar if en otra feature
-                AjustesView()
-                    .tabItem {
-                        Text("Ajustes")
-                        Image(systemName: "gear")
-                    }
-            }
         }
     }
 }
