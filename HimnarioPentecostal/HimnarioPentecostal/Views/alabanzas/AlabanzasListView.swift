@@ -30,7 +30,8 @@ struct AlabanzasListView: View {
                     Text(item.titulo)
                         .font(.system(size: device == .pad ? 30 : 20))
                 }
-            }.searchable(text: $searchItem).navigationBarTitle("Alabanzas")
+            }
+            .searchable(text: $searchItem).navigationBarTitle("Alabanzas")
         }
     }
 }

@@ -28,9 +28,11 @@ struct HimnosListView: View {
                 NavigationLink(
                     destination: HimnosContentView(model: item)) {
                     Text(String(item.numero) + ".- " + item.titulo)
-                        .font(.system(size: device == .pad ? 30 : 20))
+                        .font(.system(size: device == .pad ? 30 : 18))
                 }
-            }.searchable(text: $searchItem).navigationBarTitle("Himnario")
+            }
+            .searchable(text: $searchItem)
+            .navigationBarTitle("Himnario")
         }
     }
 }
