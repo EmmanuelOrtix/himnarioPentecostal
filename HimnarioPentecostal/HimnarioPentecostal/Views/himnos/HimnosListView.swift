@@ -27,9 +27,9 @@ struct HimnosListView: View {
             List(filtrado.sorted(by: { $0.numero < $1.numero }), id: \.self) { item in
                 NavigationLink(
                     destination: HimnosContentView(model: item)) {
-                    Text(String(item.numero) + ".- " + item.titulo)
-                        .font(.system(size: device == .pad ? 30 : 18))
-                }
+                        Text(String(item.numero) + ".- " + item.titulo)
+                            .font(.system(size: device == .pad ? 30 : 18))
+                    }
             }
             .searchable(text: $searchItem)
             .navigationBarTitle("Himnario")

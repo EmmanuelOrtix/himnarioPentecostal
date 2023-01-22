@@ -27,9 +27,9 @@ struct AlabanzasListView: View {
             List(filtrado, id: \.self) { item in
                 NavigationLink(
                     destination: AlabanzasContentView(model: item)) {
-                    Text(item.titulo)
-                        .font(.system(size: device == .pad ? 30 : 20))
-                }
+                        Text(item.titulo)
+                            .font(.system(size: device == .pad ? 30 : 20))
+                    }
             }
             .searchable(text: $searchItem).navigationBarTitle("Alabanzas")
         }

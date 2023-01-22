@@ -23,37 +23,37 @@ struct HimnosContentView: View {
                     Text("Tiempo: " + String(model.tiempo))
                         .font(.system(size: device == .pad ? 30 : 18))
                         .fontWeight(.semibold)
-                        .padding(.all)
                     Text("Nota: " + model.tono)
                         .font(.system(size: device == .pad ? 30 : 18))
                         .fontWeight(.semibold)
-                        .padding(.all)
-                    
-                }.padding(.leading, 20)
+                    Spacer()
+                }.padding([.leading, .bottom], 20)
                 HStack{
-                    
                     Text(model.texto)
                         .font(.system(size: device == .pad ? (35 + CGFloat(customFontSize)) : (18 + CGFloat(customFontSize))))
                         .lineLimit(nil)
                         .multilineTextAlignment(device == .pad ? .center : .leading)
                     Spacer()
                 }.padding(.leading, 20)
+                Spacer()
             }
-            Spacer()
-                .toolbar {
-                    ToolbarItemGroup(placement: .navigationBarTrailing) {
-                        Button{
-                            showSheet.toggle()
-                        } label: {
-                            Label("settings", systemImage: "gearshape")
-                        }
-                        .sheet(isPresented: $showSheet) {
-                            ContentSheetSettings(customFontSize: $customFontSize)
-                        }
+            .toolbar {
+                ToolbarItem(placement: .principal, content: {
+                    Text(model.titulo)
+                        .font(.title2).fontWeight(.bold)
+                })
+                ToolbarItemGroup(placement: .navigationBarTrailing) {
+                    Button{
+                        showSheet.toggle()
+                    } label: {
+                        Label("settings", systemImage: "gearshape")
                     }
-                    
+                    .sheet(isPresented: $showSheet) {
+                        ContentSheetSettings(customFontSize: $customFontSize)
+                    }
                 }
+                
+            }
         }
-        .navigationTitle(model.titulo).font(.subheadline)
     }
 }

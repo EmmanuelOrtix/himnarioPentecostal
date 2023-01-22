@@ -11,7 +11,6 @@ struct ContentSheetSettings: View {
     
     @Binding var customFontSize: Int
     
-
     var body: some View {
         ZStack{
             Color("backgroundModal").ignoresSafeArea(.all)

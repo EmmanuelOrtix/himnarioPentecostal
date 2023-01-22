@@ -15,8 +15,8 @@ struct CardViewProfile: View {
                 .frame(width: 128, height: 128)
                 .aspectRatio(contentMode: .fit)
         }.padding()
-        .background(Color.gray.opacity(0.3))
-        .cornerRadius(200)
+            .background(Color.gray.opacity(0.3))
+            .cornerRadius(200)
     }
 }
 
@@ -49,9 +49,9 @@ struct CardViewOptionHome: View {
             .disabled(true)
             Divider()
         }.padding()
-        .frame(width: 400, height: 200, alignment: .trailing)
-        .background(Color.white)
-        .cornerRadius(20)
+            .frame(width: 400, height: 200, alignment: .trailing)
+            .background(Color.white)
+            .cornerRadius(20)
     }
 }
 

@@ -49,7 +49,6 @@ struct AlabanzasContentView: View {
                     }
                 }
             }
-
         }.navigationTitle(model.titulo)
     }
 }
