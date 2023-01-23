@@ -6,11 +6,12 @@
 //
 
 import SwiftUI
+import AttributedText
 
 struct HimnosContentView: View {
     
     let model: HimnosModel
-    var  device = UIDevice.current.userInterfaceIdiom
+    var device = UIDevice.current.userInterfaceIdiom
     
     @State var showSheet: Bool = false
     
@@ -29,17 +30,17 @@ struct HimnosContentView: View {
                     Spacer()
                 }.padding([.leading, .bottom], 20)
                 HStack{
-                    Text(model.texto)
+                    AttributedText(model.texto)
                         .font(.system(size: device == .pad ? (35 + CGFloat(customFontSize)) : (18 + CGFloat(customFontSize))))
                         .lineLimit(nil)
                         .multilineTextAlignment(device == .pad ? .center : .leading)
                     Spacer()
-                }.padding(.leading, 20)
+                }.padding([.leading,.trailing], 20)
                 Spacer()
             }
             .toolbar {
                 ToolbarItem(placement: .principal, content: {
-                    Text(model.titulo)
+                    Text(String(model.numero) + " - " + model.titulo)
                         .font(.title2).fontWeight(.bold)
                 })
                 ToolbarItemGroup(placement: .navigationBarTrailing) {
