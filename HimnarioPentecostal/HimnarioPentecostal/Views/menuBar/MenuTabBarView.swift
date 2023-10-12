@@ -10,15 +10,25 @@ import SwiftUI
 struct MenuTabBarView: View {
     var body: some View {
         TabView {
+            HomeView()
+                .tabItem{
+                    Text("Inicio")
+                    Image(systemName: "house.fill")
+                }
             HimnosView()
                 .tabItem {
                     Text("Himnario")
-                    Image(systemName: "doc")
+                    Image(systemName: "book.pages")
                 }
             AlabanzasView()
                 .tabItem {
                     Text("Carpeta")
-                    Image(systemName: "doc")
+                    Image(systemName: "book.pages")
+                }
+            SettingsView()
+                .tabItem {
+                    Text("Configuraciones")
+                    Image(systemName: "gearshape.fill")
                 }
         }
     }
