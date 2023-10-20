@@ -31,6 +31,7 @@
 		B98484C82AD8401D00AE81F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98484C72AD8401D00AE81F5 /* HomeView.swift */; };
 		B98484CB2AD842FB00AE81F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98484CA2AD842FA00AE81F5 /* SettingsView.swift */; };
 		B999700128A5BB4900CA161B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B999700028A5BB4900CA161B /* GoogleService-Info.plist */; };
+		B9BF64592ADF1CEB00754485 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF64582ADF1CEB00754485 /* CircleBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		B98484C72AD8401D00AE81F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B98484CA2AD842FA00AE81F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B999700028A5BB4900CA161B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B9BF64582ADF1CEB00754485 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleBackground.swift; path = "../../../../../../../Downloads/Assets/MovieBooking Final Project/MovieBooking/UI/CircleBackground.swift"; sourceTree = "<group>"; };
 		DA5EB56BF5E39B304AC1A037 /* Pods-HimnarioPentecostal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimnarioPentecostal.release.xcconfig"; path = "Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal.release.xcconfig"; sourceTree = "<group>"; };
 		DFEC3F957F30681B9C287DDC /* Pods_HimnarioPentecostal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimnarioPentecostal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */,
+				B9BF64582ADF1CEB00754485 /* CircleBackground.swift */,
 				B9820E652977325B00F9AB54 /* SheetSettings.swift */,
 			);
 			path = components;
@@ -388,6 +391,7 @@
 				14D0F941268AA23D001C8DE8 /* AlabanzasView.swift in Sources */,
 				14D0F93F268AA22C001C8DE8 /* HimnosView.swift in Sources */,
 				37916696269A8769005694AA /* HimnosModel.swift in Sources */,
+				B9BF64592ADF1CEB00754485 /* CircleBackground.swift in Sources */,
 				B926E96326D2303D0085D966 /* AlabanzaModel.swift in Sources */,
 				B9820E662977325B00F9AB54 /* SheetSettings.swift in Sources */,
 				B98484C82AD8401D00AE81F5 /* HomeView.swift in Sources */,

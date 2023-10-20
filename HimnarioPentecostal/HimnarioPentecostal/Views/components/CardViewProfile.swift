@@ -20,43 +20,57 @@ struct CardViewProfile: View {
     }
 }
 
-struct CardViewOptionHome: View {
-    var body: some View{
-        VStack{
-            HStack {
-                Text("Favoritas")
-                Spacer()
-                Image(systemName: "star")
+struct CardViewFavourite: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            List {
+                HStack {
+                    Text("Favoritas")
+                    Spacer()
+                    Image(systemName: "star")
+                }.listRowBackground(Color.clear)
+                HStack {
+                    Text("Favoritas")
+                    Spacer()
+                    Image(systemName: "star")
+                }.listRowBackground(Color.clear)
             }
-            Divider()
-            HStack {
-                Text("Busqueda Avanzada")
-                Spacer()
-                Image(systemName: "magnifyingglass")
-            }
-            Divider()
-            HStack {
-                Text("Recien Vistas")
-                Spacer()
-                Image(systemName: "eyes")
-            }.disabled(true)
-            Divider()
-            HStack {
-                Text("Añadir")
-                Spacer()
-                Image(systemName: "folder.badge.plus")
-            }
-            .disabled(true)
-            Divider()
-        }.padding()
-            .frame(width: 400, height: 200, alignment: .trailing)
-            .background(Color.white)
-            .cornerRadius(20)
+            .scrollContentBackground(.hidden)
+        }
+        .padding(2)
+        .frame(maxWidth: .infinity, maxHeight: 250)
+        .background(.linearGradient(colors: [Color("backgroundColor"), Color("backgroundColor2").opacity(0.5)], startPoint: .topLeading, endPoint: .bottomTrailing))
+        .mask(RoundedRectangle(cornerRadius: 30, style:.continuous))
+        .shadow(color: Color("shadowColor").opacity(0.3), radius: 8, x: 0, y: 12)
+        .shadow(color: Color("shadowColor").opacity(0.3), radius: 2, x: 0, y: 1)
+    }
+}
+
+struct CardViewCategory: View {
+    var body: some View {
+        VStack(alignment: .leading, spacing: 8) {
+            Text("Categorias")
+                .font(.title2)
+                .frame(maxWidth: 170, alignment: .leading)
+                .layoutPriority(1)
+            Text("Congregacional")
+                .font(.subheadline)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .opacity(0.7)
+            Text("Alabanzas para entontar en los servicos de culto general")
+                .font(.footnote)
+            Spacer()        }
+        .padding(30)
+        .frame(width: 190, height: 250)
+        .background(.linearGradient(colors: [Color("backgroundColor"), Color("backgroundColor2").opacity(0.5)], startPoint: .topLeading, endPoint: .bottomTrailing))
+        .mask(RoundedRectangle(cornerRadius: 30, style:.continuous))
+        .shadow(color: Color("shadowColor").opacity(0.3), radius: 8, x: 0, y: 12)
+        .shadow(color: Color("shadowColor").opacity(0.3), radius: 2, x: 0, y: 1)
     }
 }
 
 struct CardViewProfile_Previews: PreviewProvider {
     static var previews: some View {
-        CardViewOptionHome()
+        CardViewCategory()
     }
 }
