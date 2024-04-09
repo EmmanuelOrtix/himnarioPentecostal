@@ -30,8 +30,8 @@
 		B9820E6E297DB2FD00F9AB54 /* HTML2TextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820E6D297DB2FD00F9AB54 /* HTML2TextParser.swift */; };
 		B98484C82AD8401D00AE81F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98484C72AD8401D00AE81F5 /* HomeView.swift */; };
 		B98484CB2AD842FB00AE81F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98484CA2AD842FA00AE81F5 /* SettingsView.swift */; };
+		B99787FD2BC5A7820079C22A /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99787FC2BC5A7820079C22A /* CircleBackground.swift */; };
 		B999700128A5BB4900CA161B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B999700028A5BB4900CA161B /* GoogleService-Info.plist */; };
-		B9BF64592ADF1CEB00754485 /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9BF64582ADF1CEB00754485 /* CircleBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +59,8 @@
 		B9820E6D297DB2FD00F9AB54 /* HTML2TextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2TextParser.swift; sourceTree = "<group>"; };
 		B98484C72AD8401D00AE81F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		B98484CA2AD842FA00AE81F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B99787FC2BC5A7820079C22A /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		B999700028A5BB4900CA161B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		B9BF64582ADF1CEB00754485 /* CircleBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CircleBackground.swift; path = "../../../../../../../Downloads/Assets/MovieBooking Final Project/MovieBooking/UI/CircleBackground.swift"; sourceTree = "<group>"; };
 		DA5EB56BF5E39B304AC1A037 /* Pods-HimnarioPentecostal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimnarioPentecostal.release.xcconfig"; path = "Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal.release.xcconfig"; sourceTree = "<group>"; };
 		DFEC3F957F30681B9C287DDC /* Pods_HimnarioPentecostal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimnarioPentecostal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -166,8 +166,8 @@
 			isa = PBXGroup;
 			children = (
 				14D0F947268AA77B001C8DE8 /* CardViewProfile.swift */,
-				B9BF64582ADF1CEB00754485 /* CircleBackground.swift */,
 				B9820E652977325B00F9AB54 /* SheetSettings.swift */,
+				B99787FC2BC5A7820079C22A /* CircleBackground.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -295,8 +295,9 @@
 		141C2398268A9EEE00155BCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1250;
-				LastUpgradeCheck = 1250;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
 					141C239F268A9EEE00155BCD = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -391,7 +392,7 @@
 				14D0F941268AA23D001C8DE8 /* AlabanzasView.swift in Sources */,
 				14D0F93F268AA22C001C8DE8 /* HimnosView.swift in Sources */,
 				37916696269A8769005694AA /* HimnosModel.swift in Sources */,
-				B9BF64592ADF1CEB00754485 /* CircleBackground.swift in Sources */,
+				B99787FD2BC5A7820079C22A /* CircleBackground.swift in Sources */,
 				B926E96326D2303D0085D966 /* AlabanzaModel.swift in Sources */,
 				B9820E662977325B00F9AB54 /* SheetSettings.swift in Sources */,
 				B98484C82AD8401D00AE81F5 /* HomeView.swift in Sources */,
@@ -414,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -447,6 +449,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -461,7 +464,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -475,6 +478,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -508,6 +512,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -516,7 +521,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -538,7 +543,7 @@
 				DEVELOPMENT_TEAM = 96AUMX3G87;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HimnarioPentecostal/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -563,7 +568,7 @@
 				DEVELOPMENT_TEAM = 96AUMX3G87;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HimnarioPentecostal/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
