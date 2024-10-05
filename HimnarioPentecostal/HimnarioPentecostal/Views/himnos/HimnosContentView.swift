@@ -59,7 +59,7 @@ struct HimnosContentView: View {
                             .multilineTextAlignment(device == .pad ? .center : .leading)
                         Spacer()
                     }.padding([.leading,.trailing], 20)
-                    Spacer()
+                    
                 }
                 .toolbar {
                     ToolbarItem(placement: .principal, content: {

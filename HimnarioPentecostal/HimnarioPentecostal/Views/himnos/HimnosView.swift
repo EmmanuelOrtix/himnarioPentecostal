@@ -18,25 +18,6 @@ struct HimnosView: View {
     
     var body: some View {
         ZStack {
-            
-            CircleBackground(color: Color("greenCircle"))
-                .blur(radius: animate ? 30 : 100)
-                .offset(x: animate ? -50 : -130, y: animate ? -30 : -100)
-                .task {
-                    withAnimation(.easeInOut(duration: 7).repeatForever()) {
-                        animate.toggle()
-                    }
-                }
-            
-            CircleBackground(color: Color("pinkCircle"))
-                .blur(radius: animate ? 30 : 100)
-                .offset(x: animate ? 100 : 130, y: animate ? 150 : 100)
-                .task {
-                    withAnimation(.easeInOut(duration: 4).repeatForever()) {
-                        animate.toggle()
-                    }
-                }
-            
             NavigationView{
                 HimnosListView(items: $himnosViewModel.model)
             }.navigationViewStyle(StackNavigationViewStyle())
