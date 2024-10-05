@@ -12,23 +12,24 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include <grpc/support/port_platform.h>
-
 #include "src/core/lib/gprpp/time.h"
 
 #include <atomic>
 #include <chrono>
-#include <cstdint>
 #include <limits>
 #include <string>
 #include <utility>
 
+#include "absl/log/check.h"
+#include "absl/log/log.h"
 #include "absl/strings/str_format.h"
 
-#include <grpc/impl/codegen/gpr_types.h>
-#include <grpc/support/log.h>
+#include <grpc/support/port_platform.h>
+#include <grpc/support/time.h>
 
 #include "src/core/lib/gprpp/no_destruct.h"
+
+// IWYU pragma: no_include <ratio>
 
 namespace grpc_core {
 
@@ -50,23 +51,28 @@ GPR_ATTRIBUTE_NOINLINE std::pair<int64_t, gpr_cycle_counter> InitTime() {
   int64_t process_epoch_seconds = 0;
 
   // Check the current time... if we end up with zero, try again after 100ms.
-  // If it doesn't advance after sleeping for 1100ms, crash the process.
-  for (int i = 0; i < 11; i++) {
+  // If it doesn't advance after sleeping for 2100ms, crash the process.
+  for (int i = 0; i < 21; i++) {
     cycles_start = gpr_get_cycle_counter();
     gpr_timespec now = gpr_now(GPR_CLOCK_MONOTONIC);
     cycles_end = gpr_get_cycle_counter();
-    process_epoch_seconds = now.tv_sec - 1;
-    if (process_epoch_seconds != 0) {
+    process_epoch_seconds = now.tv_sec;
+    if (process_epoch_seconds > 1) {
       break;
     }
+    LOG(INFO) << "gpr_now(GPR_CLOCK_MONOTONIC) returns a very small number: "
+                 "sleeping for 100ms";
     gpr_sleep_until(gpr_time_add(now, gpr_time_from_millis(100, GPR_TIMESPAN)));
   }
 
-  // Time does not seem to be increasing from zero...
-  GPR_ASSERT(process_epoch_seconds != 0);
+  // Check time has increased past 1 second.
+  CHECK_GT(process_epoch_seconds, 1);
+  // Fake the epoch to always return >=1 second from our monotonic clock (to
+  // avoid bugs elsewhere)
+  process_epoch_seconds -= 1;
   int64_t expected = 0;
   gpr_cycle_counter process_epoch_cycles = (cycles_start + cycles_end) / 2;
-  GPR_ASSERT(process_epoch_cycles != 0);
+  CHECK_NE(process_epoch_cycles, 0);
   if (!g_process_epoch_seconds.compare_exchange_strong(
           expected, process_epoch_seconds, std::memory_order_relaxed,
           std::memory_order_relaxed)) {
@@ -113,7 +119,7 @@ gpr_timespec MillisecondsAsTimespec(int64_t millis, gpr_clock_type clock_type) {
 }
 
 int64_t TimespanToMillisRoundUp(gpr_timespec ts) {
-  GPR_ASSERT(ts.clock_type == GPR_TIMESPAN);
+  CHECK(ts.clock_type == GPR_TIMESPAN);
   double x = GPR_MS_PER_SEC * static_cast<double>(ts.tv_sec) +
              static_cast<double>(ts.tv_nsec) / GPR_NS_PER_MS +
              static_cast<double>(GPR_NS_PER_SEC - 1) /
@@ -128,7 +134,7 @@ int64_t TimespanToMillisRoundUp(gpr_timespec ts) {
 }
 
 int64_t TimespanToMillisRoundDown(gpr_timespec ts) {
-  GPR_ASSERT(ts.clock_type == GPR_TIMESPAN);
+  CHECK(ts.clock_type == GPR_TIMESPAN);
   double x = GPR_MS_PER_SEC * static_cast<double>(ts.tv_sec) +
              static_cast<double>(ts.tv_nsec) / GPR_NS_PER_MS;
   if (x <= static_cast<double>(std::numeric_limits<int64_t>::min())) {
@@ -142,8 +148,7 @@ int64_t TimespanToMillisRoundDown(gpr_timespec ts) {
 
 }  // namespace
 
-GPR_THREAD_LOCAL(Timestamp::Source*)
-Timestamp::thread_local_time_source_{
+thread_local Timestamp::Source* Timestamp::thread_local_time_source_{
     NoDestructSingleton<GprNowTimeSource>::Get()};
 
 Timestamp ScopedTimeCache::Now() {
@@ -222,6 +227,7 @@ Duration::operator grpc_event_engine::experimental::EventEngine::Duration()
 void TestOnlySetProcessEpoch(gpr_timespec epoch) {
   g_process_epoch_seconds.store(
       gpr_convert_clock_type(epoch, GPR_CLOCK_MONOTONIC).tv_sec);
+  g_process_epoch_cycles.store(gpr_get_cycle_counter());
 }
 
 std::ostream& operator<<(std::ostream& out, Timestamp timestamp) {
