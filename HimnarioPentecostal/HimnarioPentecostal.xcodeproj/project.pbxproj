@@ -28,8 +28,6 @@
 		B9820E69297DB27900F9AB54 /* AttributedText in Frameworks */ = {isa = PBXBuildFile; productRef = B9820E68297DB27900F9AB54 /* AttributedText */; };
 		B9820E6C297DB2CB00F9AB54 /* AttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820E6B297DB2CB00F9AB54 /* AttributedText.swift */; };
 		B9820E6E297DB2FD00F9AB54 /* HTML2TextParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9820E6D297DB2FD00F9AB54 /* HTML2TextParser.swift */; };
-		B98484C82AD8401D00AE81F5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98484C72AD8401D00AE81F5 /* HomeView.swift */; };
-		B98484CB2AD842FB00AE81F5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98484CA2AD842FA00AE81F5 /* SettingsView.swift */; };
 		B99787FD2BC5A7820079C22A /* CircleBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99787FC2BC5A7820079C22A /* CircleBackground.swift */; };
 		B999700128A5BB4900CA161B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B999700028A5BB4900CA161B /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
@@ -57,8 +55,6 @@
 		B9820E652977325B00F9AB54 /* SheetSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetSettings.swift; sourceTree = "<group>"; };
 		B9820E6B297DB2CB00F9AB54 /* AttributedText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttributedText.swift; sourceTree = "<group>"; };
 		B9820E6D297DB2FD00F9AB54 /* HTML2TextParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTML2TextParser.swift; sourceTree = "<group>"; };
-		B98484C72AD8401D00AE81F5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		B98484CA2AD842FA00AE81F5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		B99787FC2BC5A7820079C22A /* CircleBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleBackground.swift; sourceTree = "<group>"; };
 		B999700028A5BB4900CA161B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		DA5EB56BF5E39B304AC1A037 /* Pods-HimnarioPentecostal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimnarioPentecostal.release.xcconfig"; path = "Target Support Files/Pods-HimnarioPentecostal/Pods-HimnarioPentecostal.release.xcconfig"; sourceTree = "<group>"; };
@@ -124,8 +120,6 @@
 		14D0F936268AA1A2001C8DE8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B98484C92AD842DB00AE81F5 /* settingsView */,
-				B98484C62AD83FD900AE81F5 /* homeView */,
 				14D0F946268AA754001C8DE8 /* components */,
 				14D0F93B268AA1FB001C8DE8 /* menuBar */,
 				14D0F939268AA1E8001C8DE8 /* alabanzas */,
@@ -237,22 +231,6 @@
 				B9820E6D297DB2FD00F9AB54 /* HTML2TextParser.swift */,
 			);
 			path = core;
-			sourceTree = "<group>";
-		};
-		B98484C62AD83FD900AE81F5 /* homeView */ = {
-			isa = PBXGroup;
-			children = (
-				B98484C72AD8401D00AE81F5 /* HomeView.swift */,
-			);
-			path = homeView;
-			sourceTree = "<group>";
-		};
-		B98484C92AD842DB00AE81F5 /* settingsView */ = {
-			isa = PBXGroup;
-			children = (
-				B98484CA2AD842FA00AE81F5 /* SettingsView.swift */,
-			);
-			path = settingsView;
 			sourceTree = "<group>";
 		};
 		F92E3CEA9190913B4F89D588 /* Pods */ = {
@@ -395,7 +373,6 @@
 				B99787FD2BC5A7820079C22A /* CircleBackground.swift in Sources */,
 				B926E96326D2303D0085D966 /* AlabanzaModel.swift in Sources */,
 				B9820E662977325B00F9AB54 /* SheetSettings.swift in Sources */,
-				B98484C82AD8401D00AE81F5 /* HomeView.swift in Sources */,
 				14D0F948268AA77B001C8DE8 /* CardViewProfile.swift in Sources */,
 				141C23A4268A9EEE00155BCD /* HimnarioPentecostalApp.swift in Sources */,
 				B926E96026D22FF80085D966 /* AlabanzasViewModel.swift in Sources */,
@@ -404,7 +381,6 @@
 				37916692269A8623005694AA /* HimnosContentView.swift in Sources */,
 				B9820E6E297DB2FD00F9AB54 /* HTML2TextParser.swift in Sources */,
 				37916690269A8399005694AA /* HimnosListView.swift in Sources */,
-				B98484CB2AD842FB00AE81F5 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

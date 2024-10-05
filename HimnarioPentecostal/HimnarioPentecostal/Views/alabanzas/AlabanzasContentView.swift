@@ -63,7 +63,7 @@ struct AlabanzasContentView: View {
                 }
                 .toolbar {
                     ToolbarItem(placement: .principal, content: {
-                        Text(String(model.numero) + " - " + model.titulo)
+                        Text(model.titulo)
                             .font(.title2).fontWeight(.bold)
                     })
                     ToolbarItemGroup(placement: .navigationBarTrailing) {
