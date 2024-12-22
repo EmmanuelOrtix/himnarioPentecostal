@@ -52,7 +52,7 @@ struct AlabanzasContentView: View {
                         Spacer()
                     }.padding([.leading, .bottom], 20)
                     HStack{
-                        AttributedText(model.texto)
+                        AttributedText(model.texto.replacingOccurrences(of: "|", with: "\n").replacingOccurrences(of: "{", with: "<b>").replacingOccurrences(of: "}", with: "</b>"))
                             .font(.system(size: device == .pad ? (35 + CGFloat(customFontSize)) : (18 + CGFloat(customFontSize))))
                             .lineLimit(nil)
                             .multilineTextAlignment(device == .pad ? .center : .leading)

@@ -13,10 +13,12 @@ class HimnosViewModel : ObservableObject {
     @Published var model = [HimnosModel]()
     
     func getHimnos(){
-        let Himnos = "himnario"
+        let Himnos = "himnariov2"
         let db = Firestore.firestore()
         
-        db.collection(Himnos).addSnapshotListener { (query, error) in
+        db.collection(Himnos)
+            .whereField("categoria", isEqualTo: "himnario")
+            .addSnapshotListener { (query, error) in
             if let error = error?.localizedDescription {
                 print("error al mostrar los datos", error)
             } else {
