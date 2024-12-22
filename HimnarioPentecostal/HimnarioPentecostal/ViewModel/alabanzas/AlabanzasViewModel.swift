@@ -13,10 +13,12 @@ class AlabanzaViewModel : ObservableObject {
     @Published var model = [AlabanzaModel]()
     
     func getAlabanzas(){
-        let alabanza = "alabanzasEspeciales"
+        let alabanza = "himnariov2"
         let db = Firestore.firestore()
         
-        db.collection(alabanza).addSnapshotListener { (query, error) in
+        db.collection(alabanza)
+            .whereField("categoria", isEqualTo: "carpeta")
+            .addSnapshotListener { (query, error) in
             if let error = error?.localizedDescription {
                 print("error al mostrar los datos", error)
             } else {

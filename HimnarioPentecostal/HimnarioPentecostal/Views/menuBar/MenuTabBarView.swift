@@ -10,11 +10,6 @@ import SwiftUI
 struct MenuTabBarView: View {
     var body: some View {
         TabView {
-            HomeView()
-                .tabItem{
-                    Text("Inicio")
-                    Image(systemName: "house.fill")
-                }
             HimnosView()
                 .tabItem {
                     Text("Himnario")
@@ -24,11 +19,6 @@ struct MenuTabBarView: View {
                 .tabItem {
                     Text("Carpeta")
                     Image(systemName: "book.pages")
-                }
-            SettingsView()
-                .tabItem {
-                    Text("Configuraciones")
-                    Image(systemName: "gearshape.fill")
                 }
         }
     }
